@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Certificado"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#1E3A8A"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Geração automática por participação"
+            android:textColor="#666"/>
+
+
+
+        <EditText
+            android:id="@+id/editNomeAluno"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nome do participante"
+            android:layout_marginTop="30dp"/>
+
+
+
+        <EditText
+            android:id="@+id/editNomeEvento"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nome do evento"
+            android:layout_marginTop="15dp"/>
+
+
+
+        <Button
+            android:id="@+id/btnGerarCertificado"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Gerar Certificado"
+            android:textSize="18sp"
+            android:layout_marginTop="25dp"/>
+
+
+
+        <TextView
+            android:id="@+id/txtCertificado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:padding="20dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
